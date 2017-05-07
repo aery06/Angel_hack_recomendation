@@ -7,7 +7,7 @@ The machine learns according to the new database after every two days by analyzi
 This script runs collects the user history form PC and assign them some categories.
 Lastly it creates a .csv file.
 
-## 2. recmendation_databses.py;
+## 2. recomendation_databses.py:
 It creates the databases for the categories to recommend.
 
 ## 3. google_search_classifier.py:
