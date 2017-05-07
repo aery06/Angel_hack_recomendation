@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>ANALITYCS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style>
+.img-circle{
+		border-radius : 50%;
+	}
+.img-circle1{
+		border-radius : 50%;
+	}		
+</style>
+</head>
+<body id="top">
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    
+    <div class="fl_left">
+      <ul class="nospace inline pushright">
+        <li><i class="fa fa-sign-in"></i> <a href="#">Login</a></li>
+        <li><i class="fa fa-user"></i> <a href="#">Register</a></li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul class="nospace inline pushright">
+        <li><i class="fa fa-phone"></i> 9410789379</li>
+        <li><i class="fa fa-envelope-o"></i> prakashaeery836@gmail.com</li>
+      </ul>
+    </div>
+  
+  </div>
+</div>
+<!
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+   
+    <div id="logo">
+      <h1><a href="index.html">ANALYTICS</a></h1>
+      <p>HERE YOU KNOW HOW TO SAVE YOUR MONEY</p>
+    </div>
+  
+  </header>
+</div>
+
+<div class="wrapper row2">
+  <nav id="mainav" class="hoc clear"> 
+
+    <ul class="clear">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a class="drop" href="#">Pages</a>
+        <ul>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Full Width</a></li>
+          <li><a href="#">Sidebar Left</a></li>
+          <li><a href="#">Sidebar Right</a></li>
+          <li><a href="#">Basic Grid</a></li>
+        </ul>
+      </li>
+      <li><a class="drop" href="#">DATA</a>
+        <ul>
+                    <li> <a href = "#" onclick="graph(g1);">bar graph</a></li>
+          <li> <a href ="#" onclick="graph(g2);">line graph</a></li>
+          <li><a href ="#" onclick="graph(g3);">pie chart</a></li>
+            </nav>
+</div>
+
+<div class="wrapper bgded overlay" style="background-color:url(4.jpg);">
+  <div id="pageintro" class="hoc clear"> 
+   
+    <script>
+    var g1="graph.html";
+	 var g2="linegraph.html";
+	  var g3="piegraph.html";
+	
+	</script>
+
+		  <div id="graph">
+		  
+			<iframe  id="graphs" src = "graph.html"style="height: 690px; overflow:scroll; width: 95%" src="linegraph.html" marginheight="1" marginwidth="1"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+
+		</div>
+		 
+ <script>
+	 function graph(g){
+	//document.write(g);
+	 document.getElementById("graphs").src = g;
+            }
+	 </script>
+   
+  </div>
+</div>
+
+<div class="wrapper bgded overlay coloured" style="background-image:url('3.jpg');">
+  <div id="cta" class="hoc clear"> 
+   
+    <article class="center">
+      <h2 class="heading font-x3">how you are expending your money</h2>
+      <footer>
+        <ul class="nospace inline pushright">
+          <li><a class="btn" href="#">details of expending money</a></li>
+          <li><a class="btn inverse" href="#">how to control it</a></li>
+        </ul>
+      </footer>
+    </article>
+  </div>
+</div>
+    <div class="clear"></div>
+  </div>
+</div>
+ 
+
+    <aside class="one_third">
+      <h6 class="heading">DEVLOPERS</h6>
+      <ul class="nospace">
+        <li class="btmspace-15"><i class="fa fa-fw fa-home"></i> <a href="#">Prakash SINGH AERY</a></li>
+        <li class="btmspace-15"><i class="fa fa-fw fa-book"></i> <a href="#">RAJA RAHUL RAY</a></li>
+    </ul>
+    </aside>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+
+    <div class="one_quarter first">
+     <p>fuzz photo</p>
+	 <img class = "img-circle1" src = "P.jpg" height :20px width :20px >
+		  </img>
+      <ul class="nospace linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+         <img src="">
+        </li>
+        <li><i class="fa fa-phone"></i> 9401789379<br>
+          </li>
+        <li><i class="fa fa-envelope-o"></i> prakashaeery836@gmail.com</li>
+      </ul>
+    </div>
+   
+    
+   
+    <div class="one_quarter">
+      <p># hash</p>
+      <ul class="nospace linklist">
+        <li>
+		<img class = "img-circle" src = "R.jpg" height :20px width :20px >
+		  </img>
+        </li>
+        <li>
+          <p>Rajarahulray2208@gmail.com</p>
+        </li>
+      </ul>
+    </div>
+   
+  </footer>
+</div>
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2017 BY <a href="#">#PYBUG</a></p>
+   
+
+  </div>
+</div>
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+</body>
+</html>
